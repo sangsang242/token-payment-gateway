@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 import "../../sub_modules/openzeppelin-contracts/contracts/token/ERC721/ERC721Full.sol";
 
 /// @title ERC721Seller
-/// @dev This contract acts as token seller as well as ERC721 implement
+/// @dev This contract acts as a token seller as well as ERC721 implement
 /// @notice Functions are based on Mintbase smart contract
 contract ERC721Seller is ERC721Full {
     uint256 public id;

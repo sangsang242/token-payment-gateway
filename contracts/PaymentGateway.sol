@@ -8,7 +8,7 @@ import "../sub_modules/klaytn-low-level-calls/contracts/Verifiable.sol";
 import "./ERC721Broker.sol";
 
 /// @title PaymentGateway
-/// @dev This contract act as a proxy to buy token from open market contract
+/// @dev This contract act as a proxy to buy a token from an open market contract
 /// @notice This contract buys token and sends to credit card payer's desired address
 contract PaymentGateway is Ownable, Pausable {
     bytes32 public DOMAIN_SEPARATOR;

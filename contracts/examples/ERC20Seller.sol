@@ -4,7 +4,7 @@ import "../../sub_modules/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol
 import "../../sub_modules/openzeppelin-contracts/contracts/token/ERC20/ERC20Detailed.sol";
 
 /// @title ERC20Seller
-/// @dev This contract acts as token exchange as well as ERC20 implement
+/// @dev This contract acts as a token exchange as well as ERC20 implement
 contract ERC20Seller is ERC20, ERC20Detailed {
     address payable public maker;
 
