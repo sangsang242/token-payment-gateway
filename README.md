@@ -21,14 +21,14 @@
 * ERC20Seller - This contract acts as a token exchange as well as ERC20 implement
 * ERC721Seller - This contract acts as a token seller as well as ERC721 implement
 
-## Install Dependencies
+## Clone submodules
+`git submodule update --init --recursive`
 
+## Install Dependencies
 `npm i`
 
 ## Compile Contracts
-
 `npm run compile`
 
 ## Run Tests
-
 `npm run test`
