@@ -1,0 +1,6 @@
+[submodule "sub_modules/klaytn-low-level-calls"]
+	path = sub_modules/klaytn-low-level-calls
+	url = https://github.com/sangsang242/klaytn-low-level-calls.git
+[submodule "sub_modules/openzeppelin-contracts"]
+	path = sub_modules/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts.git
